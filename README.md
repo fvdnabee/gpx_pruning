@@ -1,5 +1,5 @@
 # gpx_pruning
 
-Two scripts for
-i) converting tcx files into gpx files using gpsbabel (bash)
-ii) Pruning a set of GPX files using gpxpy (python)
+Scripts for:
+1. Converting tcx files into gpx files using gpsbabel (bash)
+2. Pruning a set of GPX files using gpxpy (python)
