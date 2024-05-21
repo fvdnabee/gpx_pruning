@@ -13,13 +13,14 @@ import gpxpy
 import gpxpy.gpx
 
 N_POINTS_PER_FILE = int(1.5e5) # number of points before starting a new output file
-N_POINTS_TO_SKIP = 2 # e.g. for two we keep every second point in the output
+N_POINTS_TO_SKIP = 4 # e.g. for two we keep every second point in the output
 
 # Input folder for reading GPX files:
 # gpx_folder = Path('/home/fvdnabee/Documents/Garmin/History/Silk_road_2018/pruning')
 # gpx_folder = Path('/home/fvdnabee/Documents/Garmin/History/Zuid_Europa_2017/pruning')
 # gpx_folder = Path('/home/fvdnabee/Documents/Garmin/History/Mittelland_route-2021/pruning')
-gpx_folder = Path('/home/fvdnabee/Documents/Garmin/History/Provence 2022')
+# gpx_folder = Path('/home/fvdnabee/Documents/Garmin/History/Provence 2022')
+gpx_folder = Path('/mnt/sarch-nfs/data-1/backup-arch-20200608/Documenten/Garmin/History/Prague_Vienna_Greenway_2023')
 
 def batch_to_xml(batch_points):
     # Create GPX file:
