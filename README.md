@@ -9,4 +9,4 @@ Scripts for:
 pipenv install
 
 ## Run script
-pipenv run python prune\_gpx\_folder.py
+pipenv run python prune_gpx_folder.py

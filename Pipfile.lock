@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7a0c66919380c9edf7798a7a4fe9988a06bc572f1586356d11b251626de01b46"
+            "sha256": "104ed1c99e52000e25bf304b80e7f78424103e1b2ba9d70d15cf81d4a0b7b7c7"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.7"
+            "python_version": "3.12"
         },
         "sources": [
             {
@@ -19,6 +19,7 @@
         "gpxpy": {
             "editable": true,
             "git": "https://github.com/tkrajina/gpxpy.git",
+            "markers": "python_version >= '3.6'",
             "ref": "e2f23afc4f92f210590cdd979fd16d15094fb42d"
         }
     },

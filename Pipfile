@@ -9,4 +9,4 @@ verify_ssl = true
 gpxpy = {editable = true,git = "https://github.com/tkrajina/gpxpy.git",ref = "v1.3.5"}
 
 [requires]
-python_version = "3.7"
+python_version = "3.12"
